@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name X16)(type KiCad)(uri ${KIPRJMOD}/X16.pretty)(options "")(descr ""))
+)

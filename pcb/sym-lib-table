@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name X16_Card)(type Legacy)(uri ${KIPRJMOD}/X16_Card.lib)(options "")(descr ""))
+)
