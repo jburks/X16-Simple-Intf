@@ -26,7 +26,7 @@ The flags of the STATUS register are
 | 1 | CSTAT_1 | Client status 1. This value reflects the state of the STAT_1 input pin from the client. Interpretation of the meaning of this flag is implementation dependent. |
 | 2-5 | UNUSED | Unused status bits. Will contain the same values as the HOST_RD register. |
 | 6 | BUSY | Client busy status. This bit indicates that the client has not yet acknowledged the last byte transmitted from the host. |
-| 7 | ATTN | Attention. Indicates that the client is trying to get the host's attention. If jumper J2 on the card is closed, the IRQ line will be held high while ATTN is asserted. |
+| 7 | ATTN | Attention. Indicates that the client is trying to get the host's attention. If jumper J2 on the card is closed, the /IRQ line will be held low (asserted) while ATTN is asserted. |
 
 The position of the BUSY and ATTN flags is intended to allow the host software to determine their state via the `BIT` instruction.
 
